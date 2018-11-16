@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\veri\part3\exe10\simulation\modelsim
+vspi2dac
+!i10b 1
+!s100 5?h6W>P;3k?>i9BQ^k><P1
+Im56E_80n70Jz9_L4XDE>d2
+VFNOGDa=aYhJTn=76LYB@A2
+Z1 dH:\veri\part3\exe10\simulation\modelsim
+w1481207092
+8H:/veri/part3/exe10/spi2dac.v
+FH:/veri/part3/exe10/spi2dac.v
+L0 9
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1511861200.762000
+!s107 H:/veri/part3/exe10/spi2dac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/veri/part3/exe10|H:/veri/part3/exe10/spi2dac.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+H:/veri/part3/exe10 -O0

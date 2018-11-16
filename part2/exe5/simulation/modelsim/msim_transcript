@@ -1,0 +1,118 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex5_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+H:/veri/part2/exe5 {H:/veri/part2/exe5/counter_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_8
+# 
+# Top level modules:
+# 	counter_8
+# 
+vsim -do ex5_run_msim_rtl_verilog.do -l msim_transcript -gui work.counter_8
+# vsim -do ex5_run_msim_rtl_verilog.do -l msim_transcript -gui work.counter_8 
+# Loading work.counter_8
+# do ex5_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+H:/veri/part2/exe5 {H:/veri/part2/exe5/counter_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_8
+# 
+# Top level modules:
+# 	counter_8
+# 
+
+addwave clock enable
+# invalid command name "addwave"
+add wave clock enable
+add wave hexadecimal count 
+# (vish-4014) No objects found matching 'hexadecimal'.
+add wave clock enable
+add wave hexadecimal count
+# (vish-4014) No objects found matching 'hexadecimal'.
+clear
+# invalid command name "clear"
+add wave -radix 16 count
+force clock 0 0,1 10ns -repeat 20ns
+force enable 1
+run 100ns
+add wave clock enable
+add wave -radix 16 count
+force clock 0 0,1 10ns -repeat 20ns
+force enable 1
+run 100ns
+force enable 0 
+run 100ns 
+force enable 1 
+run 1000ns 
+vsim>restart
+# invalid command name "vsim>restart"
+restart
+# Loading work.counter_8
+do./tb_counter.do
+# invalid command name "do./tb_counter.do"
+do ./tb_counter.do
+# Cannot open macro file: ./tb_counter.do
+do ./tb_counter.do
+# ** Error: (vish-4014) No objects found matching '?radix'.
+# (vish-4014) No objects found matching '16'.
+# Error in macro ././tb_counter.do line 2
+# (vish-4014) No objects found matching '?radix'.
+# (vish-4014) No objects found matching '16'.
+#     while executing
+# "add wave ?radix 16 count "
+# Error: Save operation was not successful.
+# Error: Save operation was not successful.
+# Error: Save operation was not successful.
+restart
+do ./tb_counter.do
+# ** Error: (vish-4014) No objects found matching '?radix16'.
+# Error in macro ././tb_counter.do line 2
+# (vish-4014) No objects found matching '?radix16'.
+#     while executing
+# "add wave ?radix16 count "
+restart
+do ./tb_counter.do
+# ** Error: (vish-4014) No objects found matching '?hexadecimal'.
+# Error in macro ././tb_counter.do line 2
+# (vish-4014) No objects found matching '?hexadecimal'.
+#     while executing
+# "add wave ?hexadecimal count "
+restart
+do ./tb_counter.do
+# ** Error: (vish-4014) No objects found matching '?radix'.
+# (vish-4014) No objects found matching '16'.
+# Error in macro ././tb_counter.do line 2
+# (vish-4014) No objects found matching '?radix'.
+# (vish-4014) No objects found matching '16'.
+#     while executing
+# "add wave ?radix 16 count "
+add wave clock enable
+add wave -hexadecimal count
+force clock 0 0,1 10ns -repeat 20ns
+add wave clock enable
+add wave -hexadecimal count
+force clock 0 0,1 10ns -repeat 20ns
+force enable 1
+run 100ns
+restart
+do ./tb_counter.do
+# ** Error: (vish-4014) No objects found matching '?hexadecimal'.
+# Error in macro ././tb_counter.do line 2
+# (vish-4014) No objects found matching '?hexadecimal'.
+#     while executing
+# "add wave ?hexadecimal count "

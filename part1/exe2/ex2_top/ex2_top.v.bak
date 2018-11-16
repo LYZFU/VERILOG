@@ -1,0 +1,10 @@
+module  ex2_top(
+     SW,  //input switches
+	  HEXO //hex output on 7 segment display
+);
+  input  [3:0] SW; //declare input/output ports
+  output [6:0] HEXO
+
+  hex_to_7seg  SEGO (HEXO,SW);
+
+endmodule  

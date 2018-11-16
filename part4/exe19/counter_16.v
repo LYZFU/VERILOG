@@ -1,0 +1,27 @@
+`timescale 1ns / 100ps
+
+module counter_13(
+clock,
+enable,
+count,
+clear
+);
+
+parameter BIT_SZ=13;
+input clock;
+input clear;
+input enable;
+output [BIT_SZ-1:0] count;
+
+reg [BIT_SZ-1:0] count;
+initial count=0;
+
+always @ (posedge clock)
+begin
+  if (clear==1'b1)
+	count=1'b0;
+  else if (enable==1'b1)
+   count<=count+1'b1;
+end
+	endmodule
+	

@@ -1,0 +1,12 @@
+module lfsr14 (data_out,clk); 
+  output [14:1] data_out; //7 bit random output  
+  input  clk;            //clock input  
+    
+  reg [14:1] sreg;//7 stage d-ff for this shift register  
+    
+  initial sreg = 14'b1;  
+  always @ (posedge clk)  
+      sreg <= {sreg[13:1],sreg[1]^sreg[6],sreg[10]^sreg[14]};  
+    
+  assign data_out =sreg;  
+endmodule   

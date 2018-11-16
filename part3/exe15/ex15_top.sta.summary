@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -7.566
+TNS   : -300.227
+
+Type  : Slow 1100mV 85C Model Setup 'spi2adc:comb_3|clk_1MHz'
+Slack : -3.186
+TNS   : -47.882
+
+Type  : Slow 1100mV 85C Model Setup 'divider:INS1|counter[0]'
+Slack : -2.780
+TNS   : -55.114
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'divider:INS1|counter[0]'
+Slack : 0.721
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'divider:INS1|counter[0]'
+Slack : -2.174
+TNS   : -74.093
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.709
+TNS   : -52.265
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'spi2adc:comb_3|clk_1MHz'
+Slack : -0.394
+TNS   : -17.194
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -7.348
+TNS   : -290.814
+
+Type  : Slow 1100mV 0C Model Setup 'spi2adc:comb_3|clk_1MHz'
+Slack : -3.305
+TNS   : -46.446
+
+Type  : Slow 1100mV 0C Model Setup 'divider:INS1|counter[0]'
+Slack : -2.826
+TNS   : -54.047
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'divider:INS1|counter[0]'
+Slack : 0.751
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'divider:INS1|counter[0]'
+Slack : -2.174
+TNS   : -74.050
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.742
+TNS   : -47.915
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'spi2adc:comb_3|clk_1MHz'
+Slack : -0.394
+TNS   : -16.855
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.688
+TNS   : -175.082
+
+Type  : Fast 1100mV 85C Model Setup 'divider:INS1|counter[0]'
+Slack : -1.555
+TNS   : -26.581
+
+Type  : Fast 1100mV 85C Model Setup 'spi2adc:comb_3|clk_1MHz'
+Slack : -1.383
+TNS   : -23.011
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'divider:INS1|counter[0]'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'divider:INS1|counter[0]'
+Slack : -2.174
+TNS   : -68.256
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.793
+TNS   : -35.571
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.033
+TNS   : -149.123
+
+Type  : Fast 1100mV 0C Model Setup 'divider:INS1|counter[0]'
+Slack : -1.430
+TNS   : -23.091
+
+Type  : Fast 1100mV 0C Model Setup 'spi2adc:comb_3|clk_1MHz'
+Slack : -1.350
+TNS   : -20.876
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'divider:INS1|counter[0]'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'divider:INS1|counter[0]'
+Slack : -2.174
+TNS   : -68.134
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.824
+TNS   : -42.016
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'spi2adc:comb_3|clk_1MHz'
+Slack : 0.092
+TNS   : 0.000
+
+------------------------------------------------------------

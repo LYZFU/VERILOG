@@ -1,0 +1,8 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus_map.exe (21013 megabytes used)</error>
+	<date>Fri Nov 24 13:57:43 2017</date>
+	<version>Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition</version>
+</internal_error>
+
